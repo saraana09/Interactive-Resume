@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuren</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <img id="avatar" class="avatar-img" src="images/shuren.JPG" alt="Shuren" />
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="resume.html">Resume</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I am Shuren</h1>
+      <p>a Software Engineer</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Leave a message</h2>
+        <p>How do you like my portfolio?</p>
+      </div>
+      <!--  Contact info form  -->
+      <div class="contuct" id="contact">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">Enter your email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email.."
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <!--  Email  -->
+
+      <p>
+        Email:<br />
+        <a href="mailto:email@example.com">email@example.com</a>
+      </p>
+      <!-- LinkedIn -->
+      <p>
+        Follow me
+        <a href="https://www.linkedin.com/">
+          <br />
+          <img
+            src="https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo-512x512.png"
+            alt="Logo Linkedin"
+            style="width: 50px; height: 50px"
+          />
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
